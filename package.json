@@ -1,0 +1,27 @@
+{
+  "name": "testnext",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "ShubU",
+  "license": "ISC",
+  "dependencies": {
+    "firebase": "^6.0.2",
+    "mobx": "^5.9.4",
+    "mobx-react": "^5.4.3",
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.4.4",
+    "babel-plugin-transform-decorators-legacy": "^1.3.5",
+    "babel-root-import": "^4.1.8"
+  }
+}
