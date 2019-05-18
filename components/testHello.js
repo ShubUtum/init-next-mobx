@@ -1,10 +1,9 @@
 import React, { Component } from "react"
 import { inject, observer } from "mobx-react"
-import testHello from "../components/testHello"
 
 @inject("BaseStore")
 @observer
-class TestHello extends Component {
+export default class TestHello extends Component {
     componentDidMount() {
         this.props.BaseStore.start()
     }
@@ -13,6 +12,6 @@ class TestHello extends Component {
     }
 
     render() {
-        return <div style={homeStyle}>{this.props.BaseStore.helloMsg}</div>
+        return <div>{this.props.BaseStore.helloMsg}</div>
     }
 }
